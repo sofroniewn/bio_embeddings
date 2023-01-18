@@ -39,7 +39,7 @@ bio-embeddings-bepler = { version = "0.0.1", optional = true }
 bio-embeddings-allennlp = { version = "0.9.2", optional = true }
 bio-embeddings-deepblast = { version = "0.1.0", optional = true }
 
-numpy = "^1.19.2"
+numpy = ">=1.19.2"
 gensim = "^4.2.0"
 biopython = "^1.79"
 "ruamel.yaml" = "^0.17.10"
@@ -49,9 +49,9 @@ transformers = { version = "^4.19.2", optional = true }
 plotly = "^5.8.0"
 umap-learn = "^0.5.3"
 matplotlib = "^3.5.2"
-scikit-learn = "^1.1.1"
+scikit-learn = ">=1.1.1"
 scipy = "^1.8.1"
-torch = ">=1.8.0,<=1.10.0"
+torch = "^1.8.0"
 tqdm = "^4.64.0"
 lock = "^2018.3.25"
 # https://github.com/ElArkk/jax-unirep/issues/107
@@ -73,7 +73,7 @@ flask = { version = "^2.1.2", optional = true }
 atomicwrites = "^1.4.0"
 pyyaml = "6.0"
 # Hiwi addons
-sentencepiece="0.1.96"
+sentencepiece="^0.1.96"
 celery="^5.2.7"
 flask-cors="^3.0.10"
 gunicorn="^20.1.0"
